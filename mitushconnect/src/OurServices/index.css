@@ -1,0 +1,286 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #ccc;
+    border-radius: 30px;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px lightgreen;
+   
+   
+}
+
+.threeCardsCont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 5%;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 374px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 530px;
+        width: 200px;
+        box-shadow: 10px 10px 5px lightgreen;
+        margin-top: 50%;
+        
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 7%;
+        
+
+    }
+    
+    h1{
+        color: green;
+        /* text-align: center; */
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 20px;
+        /* text-align: center; */
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        box-shadow: 10px 10px 5px lightgreen;
+        margin-top: 50%;
+        
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        /* align-items: center; */
+              
+
+    }
+    
+    h1{
+        color: green;
+        /* text-align: center; */
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 20px;
+        /* text-align: center; */
+    }
+    
+}
+
+@media only screen and (min-width: 415px) and (max-width: 540px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 450px;
+        width: 280px;
+        box-shadow: 10px 10px 5px lightgreen;
+        margin-top: 50%;
+        
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 5%; */
+        margin-left: 20%;
+              
+
+    }
+    
+    h1{
+        color: green;
+        /* text-align: center; */
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 20px;
+        /* text-align: center; */
+    }
+    
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1023px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        height: 750px;
+        width: 580px;
+        box-shadow: 10px 10px 5px lightgreen;  
+        margin-top: 20%;      
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12%;
+       
+       
+              
+
+    }
+    
+    h1{
+        color: green;
+        font-size: 50px;
+        
+    }
+    p{
+        font-size: 40px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1123px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        /* height: 900px; */
+        /* width: 100%; */
+        box-shadow: 10px 10px 5px lightgreen;        
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 950px;
+        margin-left: 3%;
+                     
+
+    }
+    
+    h1{
+        color: green;
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 17px;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 1124px) and (max-width: 1280px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        /* height: 900px; */
+        /* width: 100%; */
+        box-shadow: 10px 10px 5px lightgreen;        
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 950px;
+        margin-left: 13%;
+                     
+
+    }
+    
+    h1{
+        color: green;
+        font-size: 40px;
+        
+    }
+    p{
+        font-size: 20px;
+        
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border: 0.5px solid #ccc;
+        border-radius: 30px;
+        /* height: 900px; */
+        /* width: 100%; */
+        box-shadow: 10px 10px 5px lightgreen;        
+       
+    }
+    
+    
+    .threeCardsCont{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: 950px;
+        /* margin-left: 13%; */
+
+
+                     
+
+    }
+    
+    h1{
+        color: green;
+        font-size: 40px;
+        
+    }
+    p{
+        font-size: 20px;
+        
+    }
+    
+}
