@@ -1,0 +1,391 @@
+body{
+    background-color: #169A3B; 
+
+}
+#teams{
+    background-color: #169A3B;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    height: 760px;
+    padding-left: 13%;
+   
+}
+.team {
+    border-radius: 50%;
+    width: 32%;
+    height: auto;
+    align-items: center;
+    padding: 2px;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: aliceblue;
+
+}
+.teams p{
+    margin-left: 100%;
+    padding-left: 400px;
+    color: aliceblue;
+}
+.h1{
+    color: aliceblue;
+    font-size: 5rem;
+    font-style: normal;
+    margin-left: 40%;
+    font-weight: lighter;
+    background-color: #169A3B;
+    margin-right:43% ;
+}
+.patricia[alt="Patricia"]{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 45%;
+    
+}
+.patricia p{
+    margin-left: 45%;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.raziah[alt="Raziah"]{
+    border-radius: 50%;
+    width: 31%;
+    margin-left: 25%;
+    
+}
+.raziah p{
+    margin-left: 25%;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.team[alt="Aline"]{
+    border-radius: 50%;
+    width: 50%;
+    margin-right: 20%;
+}
+.Aline p{
+    margin-left: 55%;
+    color: aliceblue;
+}
+
+.team[alt="Chemtai"]{
+    border-radius: 50%;
+    width: 50%;
+    margin-right: 36%;
+}
+.Chemtai p{
+    margin-left: 59%;
+}
+
+.team[alt="Faith"]{
+    border-radius: 50%;
+    width: 50%;
+    margin-right: 50%;
+}
+.Faith p{
+    margin-left: 59%;
+}
+
+
+
+
+@media screen and (min-width:280px) and (max-width:480px){
+    body{
+        background-color: #169A3B; 
+    
+    }
+    #teams{
+        background-color: #169A3B;
+        /* width: 120%; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 360px;
+        padding-left: 13%;
+        gap: 5px;
+       
+    }
+    .team {
+        border-radius: 50%;
+        width: 50%;
+        height: auto;
+        align-items: center;
+        padding: 1px;
+        flex-direction: column;
+        font-size: 1rem;
+        color: aliceblue;
+        margin-bottom: 7%;
+      
+    }
+    .teams p{
+        margin-left: 100%;
+        padding-left: 400px;
+        color: aliceblue;
+    }
+    .h1{
+        color: aliceblue;
+        font-size: 3rem;
+        font-style: normal;
+        margin-left: 20%;
+        font-weight: lighter;
+        background-color: #169A3B;
+        margin-right:43% ;
+    }
+    .patricia[alt="Patricia"]{
+        width: 90%;
+        border-radius: 50%;
+        margin-left: 0%;
+        
+    }
+    .patricia p{
+        margin-left:0%;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+    
+    .raziah[alt="Raziah"]{
+        border-radius: 50%;
+        width: 90%;
+        margin-left: 0%;
+      
+        
+        
+    }
+    .raziah p{
+        margin-left: 0%;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+    
+    .team[alt="Aline"]{
+        border-radius: 50%;
+        width: 180%;
+        margin-right: 20%;
+    }
+    .Aline p{
+        margin-left: 55%;
+        color: aliceblue;
+    }
+    
+    .team[alt="Chemtai"]{
+        border-radius: 50%;
+        width: 165%;
+        margin-right: 36%;
+    }
+    .Chemtai p{
+        margin-left: 59%;
+    }
+    
+    .team[alt="Faith"]{
+        border-radius: 50%;
+        width: 160%;
+        margin-right: 50%;
+    }
+    .Faith p{
+        margin-left: 59%;
+    }
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:800px){
+        body{
+            background-color: #169A3B; 
+        
+        }
+        #teams{
+            background-color: #169A3B;
+            /* width: 120%; */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 360px;
+            padding-left: 13%;
+            gap: 5px;
+           
+        }
+        .team {
+            border-radius: 50%;
+            width: 50%;
+            height: auto;
+            align-items: center;
+            padding: 1px;
+            flex-direction: column;
+            font-size: 1rem;
+            color: aliceblue;
+            margin-bottom: 7%;
+          
+        }
+        .teams p{
+            margin-left: 100%;
+            padding-left: 400px;
+            color: aliceblue;
+        }
+        .h1{
+            color: aliceblue;
+            font-size: 3rem;
+            font-style: normal;
+            margin-left: 20%;
+            font-weight: lighter;
+            background-color: #169A3B;
+            margin-right:43% ;
+        }
+        .patricia[alt="Patricia"]{
+            width: 90%;
+            border-radius: 50%;
+            margin-left: 0%;
+            
+        }
+        .patricia p{
+            margin-left:0%;
+            color: aliceblue;
+            font-size: 1rem;
+        }
+        
+        .raziah[alt="Raziah"]{
+            border-radius: 50%;
+            width: 90%;
+            margin-left: 0%;
+          
+            
+            
+        }
+        .raziah p{
+            margin-left: 0%;
+            color: aliceblue;
+            font-size: 1rem;
+        }
+        
+        .team[alt="Aline"]{
+            border-radius: 50%;
+            width: 170%;
+            margin-right: 20%;
+        }
+        .Aline p{
+            margin-left: 55%;
+            color: aliceblue;
+        }
+        
+        .team[alt="Chemtai"]{
+            border-radius: 50%;
+            width: 170%;
+            margin-right: 36%;
+        }
+        .Chemtai p{
+            margin-left: 59%;
+        }
+        
+        .team[alt="Faith"]{
+            border-radius: 50%;
+            width: 170%;
+            margin-right: 50%;
+        }
+        .Faith p{
+            margin-left: 59%;
+        }
+    }
+    
+    
+
+    
+@media screen and (min-width:801px) and (max-width:1280px){
+    body{
+        background-color: #169A3B; 
+    
+    }
+    #teams{
+        background-color: #169A3B;
+        /* width: 120%; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 360px;
+        padding-left: 13%;
+        gap: 5px;
+       
+    }
+    .team {
+        border-radius: 50%;
+        width: 50%;
+        height: auto;
+        align-items: center;
+        padding: 1px;
+        flex-direction: column;
+        font-size: 1rem;
+        color: aliceblue;
+        margin-bottom: 7%;
+      
+    }
+    .teams p{
+        margin-left: 100%;
+        padding-left: 400px;
+        color: aliceblue;
+    }
+    .h1{
+        color: aliceblue;
+        font-size: 3rem;
+        font-style: normal;
+        margin-left: 20%;
+        font-weight: lighter;
+        background-color: #169A3B;
+        margin-right:43% ;
+    }
+    .patricia[alt="Patricia"]{
+        width: 90%;
+        border-radius: 50%;
+        margin-left: 0%;
+        
+    }
+    .patricia p{
+        margin-left:0%;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+    
+    .raziah[alt="Raziah"]{
+        border-radius: 50%;
+        width: 90%;
+        margin-left: 0%;
+      
+        
+        
+    }
+    .raziah p{
+        margin-left: 0%;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+    
+    .team[alt="Aline"]{
+        border-radius: 50%;
+        width: 170%;
+        margin-right: 20%;
+    }
+    .Aline p{
+        margin-left: 55%;
+        color: aliceblue;
+    }
+    
+    .team[alt="Chemtai"]{
+        border-radius: 50%;
+        width: 165%;
+        margin-right: 36%;
+    }
+    .Chemtai p{
+        margin-left: 59%;
+    }
+    
+    .team[alt="Faith"]{
+        border-radius: 50%;
+        width: 166%;
+        margin-right: 50%;
+    }
+    .Faith p{
+        margin-left: 59%;
+    }
+}
