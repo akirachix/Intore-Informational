@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    gap: 95px;
+    text-decoration-line: none;
+    margin-top: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    break-after:none ; 
+
+}
+
+.brand{
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 2%;
+}
+
+.openingtext{
+    display: flex;
+    margin-left:85px; 
+    gap: 88px;
+}
+
+.text{
+    font-size: 24px;
+}
+
+button{
+    background-color: green;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.header{
+    color:green;
+}
+
+.cto{
+    align-items: center;
+}
+
+
