@@ -1,0 +1,23 @@
+
+h1{
+    color:rgb(0,128,0);
+    font-size: 40px;
+  
+  }
+
+  .vines{
+    display:flex;
+}
+
+.mission{
+  /* margin-left: 5%; */
+  margin-top: 10%;
+}
+p{
+  font-size:25px;
+}
+.vine2{
+  margin-left: 78%;
+}
+  
+  
