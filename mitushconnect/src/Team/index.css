@@ -1,391 +1,538 @@
 body{
-    background-color: #169A3B; 
+    background-color: #1D8804; 
 
 }
-#teams{
-    background-color: #169A3B;
-    width: 80%;
+
+.team img{
+   width: 256px;
+   gap: 10%;
+   border-radius: 50%;
+   display: flex;
+   justify-content: 30%;
+
+
+}
+.figure{
+   text-align: center;
+   font-size: 16px;
+   color: aliceblue;
+}
+
+.teammembers{
+    text-align: center;
+    color: aliceblue;
+    /* padding-left: 36%; */
+    font-size: 32px;
+}
+.buttomteam{
+    padding-top: 45px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-    height: 760px;
-    padding-left: 13%;
-   
+    gap: 20%;
+    padding-left: 500px;
 }
-.team {
-    border-radius: 50%;
-    width: 32%;
-    height: auto;
-    align-items: center;
-    padding: 2px;
-    flex-direction: column;
-    font-size: 1.5rem;
-    color: aliceblue;
-
-}
-.teams p{
-    margin-left: 100%;
-    padding-left: 400px;
-    color: aliceblue;
-}
-.h1{
-    color: aliceblue;
-    font-size: 5rem;
-    font-style: normal;
-    margin-left: 40%;
-    font-weight: lighter;
-    background-color: #169A3B;
-    margin-right:43% ;
-}
-.patricia[alt="Patricia"]{
-    width: 50%;
-    border-radius: 50%;
-    margin-left: 45%;
+.upperteam{
+    display: flex;
+    gap: 20%;
+    padding-top: 8px;
+    padding-left: 300px;
+    /* margin-right: 10%; */
+    padding-right: 280px;
     
-}
-.patricia p{
-    margin-left: 45%;
-    color: aliceblue;
-    font-size: 1.5rem;
-}
 
-.raziah[alt="Raziah"]{
-    border-radius: 50%;
-    width: 31%;
-    margin-left: 25%;
-    
 }
-.raziah p{
-    margin-left: 25%;
-    color: aliceblue;
-    font-size: 1.5rem;
-}
-
-.team[alt="Aline"]{
-    border-radius: 50%;
-    width: 50%;
-    margin-right: 20%;
-}
-.Aline p{
-    margin-left: 55%;
-    color: aliceblue;
-}
-
-.team[alt="Chemtai"]{
-    border-radius: 50%;
-    width: 50%;
-    margin-right: 36%;
-}
-.Chemtai p{
-    margin-left: 59%;
-}
-
-.team[alt="Faith"]{
-    border-radius: 50%;
-    width: 50%;
-    margin-right: 50%;
-}
-.Faith p{
-    margin-left: 59%;
-}
-
-
 
 
 @media screen and (min-width:280px) and (max-width:480px){
     body{
-        background-color: #169A3B; 
-    
+        background-color: #1D8804; 
     }
-    #teams{
-        background-color: #169A3B;
-        /* width: 120%; */
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        height: 360px;
-        padding-left: 13%;
-        gap: 5px;
+    
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       /* margin-left: 82%; */
        
+    
+    
     }
-    .team {
-        border-radius: 50%;
-        width: 50%;
-        height: auto;
-        align-items: center;
-        padding: 1px;
+    .figure{
+       font-size: 1rem;
+       /* padding-left: -200px; */
+    
+    }
+    
+    .teammembers{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .buttomteam{
+        padding-left: 10px;
+       flex-direction: column;
+       align-items: center;
+       /* margin-left: -200%; */
+    
+        
+    }
+    .upperteam{
         flex-direction: column;
-        font-size: 1rem;
-        color: aliceblue;
-        margin-bottom: 7%;
-      
-    }
-    .teams p{
-        margin-left: 100%;
-        padding-left: 400px;
-        color: aliceblue;
-    }
-    .h1{
-        color: aliceblue;
-        font-size: 3rem;
-        font-style: normal;
-        margin-left: 20%;
-        font-weight: lighter;
-        background-color: #169A3B;
-        margin-right:43% ;
-    }
-    .patricia[alt="Patricia"]{
-        width: 90%;
-        border-radius: 50%;
-        margin-left: 0%;
+       align-items: center;
+        /* padding-left: 10px; */
+        padding-left: 50px;
+        padding-right: 50px;
+       
         
-    }
-    .patricia p{
-        margin-left:0%;
-        color: aliceblue;
-        font-size: 1rem;
+    
     }
     
-    .raziah[alt="Raziah"]{
-        border-radius: 50%;
-        width: 90%;
-        margin-left: 0%;
-      
-        
-        
-    }
-    .raziah p{
-        margin-left: 0%;
-        color: aliceblue;
-        font-size: 1rem;
-    }
-    
-    .team[alt="Aline"]{
-        border-radius: 50%;
-        width: 180%;
-        margin-right: 20%;
-    }
-    .Aline p{
-        margin-left: 55%;
-        color: aliceblue;
-    }
-    
-    .team[alt="Chemtai"]{
-        border-radius: 50%;
-        width: 165%;
-        margin-right: 36%;
-    }
-    .Chemtai p{
-        margin-left: 59%;
-    }
-    
-    .team[alt="Faith"]{
-        border-radius: 50%;
-        width: 160%;
-        margin-right: 50%;
-    }
-    .Faith p{
-        margin-left: 59%;
-    }
 }
 
 
 
-@media screen and (min-width:481px) and (max-width:800px){
-        body{
-            background-color: #169A3B; 
-        
-        }
-        #teams{
-            background-color: #169A3B;
-            /* width: 120%; */
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            height: 360px;
-            padding-left: 13%;
-            gap: 5px;
-           
-        }
-        .team {
-            border-radius: 50%;
-            width: 50%;
-            height: auto;
-            align-items: center;
-            padding: 1px;
-            flex-direction: column;
-            font-size: 1rem;
-            color: aliceblue;
-            margin-bottom: 7%;
-          
-        }
-        .teams p{
-            margin-left: 100%;
-            padding-left: 400px;
-            color: aliceblue;
-        }
-        .h1{
-            color: aliceblue;
-            font-size: 3rem;
-            font-style: normal;
-            margin-left: 20%;
-            font-weight: lighter;
-            background-color: #169A3B;
-            margin-right:43% ;
-        }
-        .patricia[alt="Patricia"]{
-            width: 90%;
-            border-radius: 50%;
-            margin-left: 0%;
-            
-        }
-        .patricia p{
-            margin-left:0%;
-            color: aliceblue;
-            font-size: 1rem;
-        }
-        
-        .raziah[alt="Raziah"]{
-            border-radius: 50%;
-            width: 90%;
-            margin-left: 0%;
-          
-            
-            
-        }
-        .raziah p{
-            margin-left: 0%;
-            color: aliceblue;
-            font-size: 1rem;
-        }
-        
-        .team[alt="Aline"]{
-            border-radius: 50%;
-            width: 170%;
-            margin-right: 20%;
-        }
-        .Aline p{
-            margin-left: 55%;
-            color: aliceblue;
-        }
-        
-        .team[alt="Chemtai"]{
-            border-radius: 50%;
-            width: 170%;
-            margin-right: 36%;
-        }
-        .Chemtai p{
-            margin-left: 59%;
-        }
-        
-        .team[alt="Faith"]{
-            border-radius: 50%;
-            width: 170%;
-            margin-right: 50%;
-        }
-        .Faith p{
-            margin-left: 59%;
-        }
-    }
-    
-    
-
-    
-@media screen and (min-width:801px) and (max-width:1280px){
+@media screen and (min-width:540px) and (max-width:740px){
     body{
-        background-color: #169A3B; 
+        background-color: #1D8804; 
     
     }
-    #teams{
-        background-color: #169A3B;
-        /* width: 120%; */
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        height: 360px;
-        padding-left: 13%;
-        gap: 5px;
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
        
     }
-    .team {
-        border-radius: 50%;
-        width: 50%;
-        height: auto;
-        align-items: center;
-        padding: 1px;
-        flex-direction: column;
-        font-size: 1rem;
-        color: aliceblue;
-        margin-bottom: 7%;
+    .team img{
+       width: 140px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       /* margin-left: 48%; */
       
+    
+    
     }
-    .teams p{
-        margin-left: 100%;
-        padding-left: 400px;
-        color: aliceblue;
+    .figure{
+       font-size: 1rem;
     }
-    .h1{
-        color: aliceblue;
-        font-size: 3rem;
-        font-style: normal;
-        margin-left: 20%;
-        font-weight: lighter;
-        background-color: #169A3B;
-        margin-right:43% ;
+    .teammembers{
+        font-size: 30px;
+        padding-left: 40px;
     }
-    .patricia[alt="Patricia"]{
-        width: 90%;
-        border-radius: 50%;
-        margin-left: 0%;
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 20%;
+       gap: 50px;
         
     }
-    .patricia p{
-        margin-left:0%;
-        color: aliceblue;
-        font-size: 1rem;
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -53.5%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+        
+    
+    
+    }
+
+
     }
     
-    .raziah[alt="Raziah"]{
-        border-radius: 50%;
-        width: 90%;
-        margin-left: 0%;
-      
-        
-        
-    }
-    .raziah p{
-        margin-left: 0%;
-        color: aliceblue;
-        font-size: 1rem;
-    }
     
-    .team[alt="Aline"]{
-        border-radius: 50%;
-        width: 170%;
+
+    
+@media screen and (min-width:741px) and (max-width:1020px){
+   
+    body{
+        background-color: #1D8804; 
+    
+    }
+    .container{
+        padding-right: 100px;
         margin-right: 20%;
+       
     }
-    .Aline p{
-        margin-left: 55%;
-        color: aliceblue;
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+      
+        
+    
+    }
+    .figure{
+       font-size: 1rem;
+       /* padding-right:40px; */
+       
+    }
+    .teammembers{
+        font-size: 30px;
+        padding-left: 10px;
+        
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 30%;
+       gap: 50px;
+        
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -20%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+        
+    
+    
+    }
+
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1020px){
+   
+    body{
+        background-color: #1D8804; 
+    
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+       
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+      
+        
+    
+    }
+    .figure{
+       font-size: 1rem;
+       /* padding-right:40px; */
+       
+    }
+    .teammembers{
+        font-size: 30px;
+        padding-left: 10px;
+        
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 30%;
+       gap: 50px;
+        
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -24%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+        
+    
+    
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:800px) and (max-width:1020px){
+   
+    body{
+        background-color: #1D8804; 
+    
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+       
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+      
+        
+    
+    }
+    .figure{
+       font-size: 1rem;
+       /* padding-right:40px; */
+       
+    }
+    .teammembers{
+        font-size: 30px;
+        padding-left: 10px;
+        
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 30%;
+       gap: 50px;
+        
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -19%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+        
+    
+    
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width:900px) and (max-width:1020px){
+   
+    body{
+        background-color: #1D8804; 
+    
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+       
+    }
+    .team img{
+       width: 150px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       margin-right: 10%;
+      
+        
+    
+    }
+    .figure{
+       font-size: 1rem;
+       /* padding-right:40px; */
+       
+    }
+    .teammembers{
+        font-size: 30px;
+        padding-left: 10px;
+        
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:0px;
+       padding-right: 0px;
+       margin-left: 30%;
+       gap: 50px;
+        
+    }
+    .upperteam{
+        flex-direction: row;
+       align-items: center;
+       margin-left: -14%;
+       gap: 50px;
+        /* padding-left: 0px;
+        padding-right: 0px;        */
+        
+    
+    
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:1030px) and (max-width:1220px){
+    
+
+    body{
+        background-color: #1D8804; 
+    
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+       
+    }
+    .team img{
+       width: 180px;
+       gap: 30%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+      
+    
+    
+    }
+    .figure{
+       font-size: 1rem;
+       
+    }
+    .teammembers{
+        font-size: 30px;
+        
+    }
+    .buttomteam{
+       flex-direction: column;
+       align-items: center;
+       padding-left:20px;
+       /* padding-right: 50px; */
+        
+    }
+    .upperteam{
+        flex-direction:column;
+        align-items: center;
+        padding-left: 30px;
+        /* padding-right: 150px;        */
+        
+    
     }
     
-    .team[alt="Chemtai"]{
-        border-radius: 50%;
-        width: 165%;
-        margin-right: 36%;
-    }
-    .Chemtai p{
-        margin-left: 59%;
-    }
+}
+
+
+@media screen and (min-width:1221px) and (max-width:1280px){
+   
+ 
+    body{
+        background-color: #1D8804; 
     
-    .team[alt="Faith"]{
-        border-radius: 50%;
-        width: 166%;
-        margin-right: 50%;
     }
-    .Faith p{
-        margin-left: 59%;
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+       
+    }
+    .team img{
+       width: 220px;
+       gap: 5%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+    
+    
+    }
+    .figure{
+       font-size: 1rem;
+    }
+    .teammembers{
+        font-size: 30px;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:320px;
+       /* padding-right: 50px; */
+        
+    }
+    .upperteam{
+        flex-direction:row;
+        align-items: center;
+        padding-left: 140px;
+        /* padding-right: 150px;        */
+        
+    
     }
 }
+
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1029px){
+    
+
+
+    body{
+        background-color: #1D8804; 
+    
+    }
+    .container{
+        padding-right: 100px;
+        margin-right: 20%;
+       
+    }
+    .team img{
+       width: 220px;
+       gap: 10%;
+       border-radius: 50%;
+       display: flex;
+       justify-content: space-between;
+       width: 150px;
+    
+    
+    }
+    .figure{
+       font-size: 1rem;
+       
+    }
+    .teammembers{
+        font-size: 30px;
+    }
+    .buttomteam{
+       flex-direction: row;
+       align-items: center;
+       padding-left:80px;
+       padding-right: 60px;
+       margin-left: 20%;
+        
+    }
+    .upperteam{
+        flex-direction:row;
+        align-items: center;
+        padding-left: 150px;
+        padding-right: 150px;       
+        
+    
+    }
+    
+}
+
+
+

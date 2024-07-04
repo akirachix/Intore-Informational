@@ -1,34 +1,58 @@
-import './index.css'
+
+ import './index.css'
 const Team= ()=>{
     return (
     
-        <div id='container'>
-        <h1 className='h1'>Team</h1>
-        <div id='teams' >
+        <div>
+        <h1 className='teammembers'>Team</h1>
+        <div className='team' >
        
-            <div className='team'>
-            <img src="/Images/Aline.jpeg" alt="Aline" className='team' />
-            <p> Aline Mutesi <br/>Software Developer </p>
+           <div className='upperteam'>
+            <div>
+            <img src="/Images/Aline.jpg" alt="Aline"/>
+            <div className='figure'>
+            <p> Aline Mutesi </p>
+            <p>Software Developer</p>
+            </div>
             </div>
          
-            <div className='team'>
-            <img src="/Images/Chemtai.jpeg" alt="Chemtai" className='team'  />
-            <p> Mercy Chemtai <br/>Software Developer </p>
+            <div>
+            <img src="/Images/Chemtai.jpeg" alt="Chemtai" className='Chemtai'  />
+            <div className='figure'>
+            <p> Mercy Chemtai</p>
+            <p>Software Developer</p>
+            </div>
             </div>
             
-            <div className='team'>
-            <img src="/Images/Faith.jpeg" alt="Faith" className='team'/>
-            <p> Faith Wachira<br/>Software Developer </p>
+            <div>
+            <img src="/Images/Faith.jpeg" alt="Faith" className='Faith'/>
+            <div className='figure'>
+            <p> Faith Wachira</p>
+            <p>Software Developer</p>
             </div>
+            </div>
+            </div>
+
             
-            <div className='patricia'>
+
+
+            <div className='buttomteam'>
+            <div>
             <img src="/Images/Patricia.jpeg" alt="Patricia" className='patricia'/>
-            <p> Patricia Ainembabazi<br/>Software Developer </p>
+            <div className='figure'>
+            <p> Patricia Ainembabazi</p>
+            <p>Software Developer</p>
+            </div>
            </div>
 
-           <div className='raziah'>
+           <div>
             <img src="/Images/Raziah.jpeg" alt="Raziah"  className='raziah'/>
-            <p> Raziah Abdullahi <br/>Software Developer </p>
+            <div className='figure'>
+            <p> Raziah Abdullahi</p>
+            <p>Software Developer</p>
+            </div>
+            </div>
+
             </div>
             </div>
             </div>
@@ -37,3 +61,4 @@ const Team= ()=>{
     )
 }
 export default Team
+
