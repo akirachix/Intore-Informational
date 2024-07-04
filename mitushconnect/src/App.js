@@ -1,6 +1,6 @@
 import './App.css';
 
-import Mission from "./mission";
+import Mission from "./Mission";
 
 const App = () =>{
   return(

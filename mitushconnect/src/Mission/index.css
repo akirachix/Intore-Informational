@@ -1,0 +1,309 @@
+
+h1{
+  color:rgb(0,128,0);
+  font-size: 50px;
+  margin-left: 15%;
+  width:300px;
+
+}
+
+.mission-statement{
+  display:flex;
+  height: 10vh;
+}
+
+.mission{
+margin-left: 5%;
+margin-top: 10%;
+width:625px;
+}
+.mission-text{
+font-size:25px;
+margin-top: 95px;
+margin-left: 15%;
+width: 625px;
+}
+.infographic{
+  margin-top: 10%;
+  margin-left: 20%;
+}
+  
+@media screen and (min-width:280px) and (max-width: 375px){
+  h1{
+    color:rgb(0,128,0);
+    font-size: 20px;
+    margin-left: 0%;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .mission-statement{
+    display:block;
+    /* height: 10vh; */
+  }
+  
+  .mission{
+  margin-left: 0%;
+  margin-top: 10%;
+  width:100%;
+  }
+  .mission-text{
+  font-size:16px;
+  margin-top: 5px;
+  width: 85%;
+  margin-left: 8%;
+  }
+  .infographic{
+    margin-top: 1%;
+    margin-left: 14%;
+    justify-content: center;
+  }
+  .our{
+    margin-bottom: 10%;
+  }
+  .imgs{
+    width:85%;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 460px) { 
+  h1{
+    color:rgb(0,128,0);
+    font-size: 16px;
+    margin-left: 0%;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .mission-statement{
+    display:block;
+    width: 100%;
+    /* height: 10vh; */
+  }
+  
+  .mission{
+  margin-left: 0%;
+  margin-top: 10%;
+  width:100%;
+  }
+  .mission-text{
+  font-size:16px;
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 5%;
+  }
+  .infographic{
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .our{
+    margin-bottom: 10%;
+  }
+  .imgs{
+    width: 95%;
+    margin-left: 3.1%;
+  }
+}
+      
+@media screen and (min-width: 461px) and (max-width: 660px) { 
+  h1{
+    color:rgb(0,128,0);
+    font-size: 30px;
+    margin-left: 0%;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .mission-statement{
+    display:block;
+    width: 100%;
+    /* height: 10vh; */
+  }
+  
+  .mission{
+  margin-left: 0%;
+  margin-top: 10%;
+  width:100%;
+  }
+  .mission-text{
+  font-size:20px;
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 5%;
+  }
+  .infographic{
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .our{
+    margin-bottom: 10%;
+  }
+  .imgs{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 660px) and (max-width: 760px) { h1{
+  color:rgb(0,128,0);
+  font-size: 20px;
+  margin-left:15%;
+
+}
+
+.mission-statement{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.mission-text{
+margin-left: 15%;
+margin-top: 0%;
+font-size:15px;
+margin-top: 1px;
+margin-left: 15%;
+width:95px;
+
+}
+
+
+img{
+  width:100px;
+  
+}
+
+}
+      
+     
+@media  screen and (min-width: 760px) and (max-width: 860px) { 
+  h1{
+    color:rgb(0,128,0);
+    font-size: 40px;
+    margin-left: 0%;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .mission-statement{
+    display:block;
+    width: 100%;
+    /* height: 10vh; */
+  }
+  
+  .mission{
+  margin-left: 0%;
+  margin-top: 10%;
+  width:100%;
+  }
+  .mission-text{
+  font-size:25px;
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 5%;
+  }
+  .infographic{
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .our{
+    margin-bottom: 10%;
+  }
+  .imgs{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+}
+      
+@media screen and (min-width: 861px) and (max-width: 960px) { 
+  h1{
+    color:rgb(0,128,0);
+    font-size: 40px;
+    margin-left: 0%;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .mission-statement{
+    display:block;
+    width: 100%;
+    /* height: 10vh; */
+  }
+  
+  .mission{
+  margin-left: 0%;
+  margin-top: 10%;
+  width:100%;
+  }
+  .mission-text{
+  font-size:35px;
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 5%;
+  }
+  .infographic{
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .our{
+    margin-bottom: 10%;
+  }
+  .imgs{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+}
+      
+@media screen and (min-width: 961px) and (max-width: 1280px) { 
+  h1{
+    color:rgb(0,128,0);
+    font-size: 30px;
+    margin-left: 0%;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .mission-statement{
+    display:flex;
+    width: 100%;
+    /* height: 10vh; */
+  }
+  
+  .mission{
+  margin-left: 0%;
+  margin-top: 10%;
+  width:100%;
+  }
+  .mission-text{
+  font-size:25px;
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 5%;
+  }
+  .infographic{
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .our{
+    margin-bottom: 10%;
+  }
+  .imgs{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+      
+     
+     
+     
+     
