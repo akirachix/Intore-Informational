@@ -2,62 +2,36 @@
 import './index.css'
 const footer = ()=>{
     return(
- <div className='Footer'>
-     <section class="footer">
-      <div class="footer-row">
-        <div class="footer-col">
-          <h4>Info</h4>
-          <ul class="links">
-            <li><a href="aboutUs">About Us</a></li>
-            <li><a href="Compressions">Compressions</a></li>
-            <li><a href="Customers service">Customers Service</a></li>
-            <li><a href="Service">Service</a></li>
-            <li><a href="Collections">Collection</a></li>
-          </ul>
-        </div>
+ <div>
 
-        <div class="footer-col">
-          <h4>Explore</h4>
-          <ul class="links">
-            <li><a href="Recycling">Recycling Tips</a></li>
-            <li><a href="Blogs">Blogs</a></li>
-            <li><a href="Uploads">New Uploads</a></li>
-          </ul>
+<footer class="footer">
+        <div class="box">
+          
+            <ul class="links">
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Blogs </a></li>
+                <li><a href="#"> Services </a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Contact Us </a></li>
+            </ul>
         </div>
+       
+        <div class="box">
+            <h2> Chat with us</h2>
+            <img  className = "one" src="image/facebook50.png" alt="facebook" />
+          <img className= " two" src="image/twitter11.png" alt="twitter"/>
+            <img className= "three" src="image/linkedin50.png" alt="linke"/>
+          
+         </div>
 
-        <div class="footer-col">
-          <h4>Customer Service</h4>
-          <ul class="links">
-            <li><a href="#">Customer Agreement</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Return Policy</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Site Map</a></li>
-          </ul>
+        <div class="box">
+            <h2> News Letter </h2>
+            <form action="" class="registration">
+                <input type="email" name="email" id="email" placeholder="Enter your email "/>
+                <button type="submit"> Subscibe Now </button>
+            </form>
         </div>
-
-        <div class="footer-col">
-          <h4>Newsletter</h4>
-          <p>
-            Subscribe to our Website  for a weekly dose
-            of news, updates, helpful tips, and
-            exclusive offers.
-          </p>
-          <form action="#">
-            <input type="text" placeholder="Your email" required/>
-            <button type="submit">SUBSCRIBE</button>
-          </form>
-          <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    </footer>
  </div>
 
 
