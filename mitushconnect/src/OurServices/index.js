@@ -53,17 +53,8 @@ function OurServices(){
         </div>
     </div>
     </div>
-    )
-}
-export default OurServices;
 
-
-    </div>
-    
-
-        </div>
-        
-        
+         
     )
 }
 
