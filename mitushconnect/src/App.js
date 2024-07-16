@@ -1,3 +1,4 @@
+ HEAD
 import './App.css';
 import Services from "./OurServices"
 import Team from './Team';
@@ -9,6 +10,9 @@ const App = () =>{
         <Team/>
     </div>
   )
+
 }
+
+
 export default App;
 
