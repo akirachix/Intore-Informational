@@ -10,27 +10,26 @@ const LandingPage=() =>{
         
 
 
-        <div className='openingtext'>
-            <div className='cto'>
-              <div className='header'> <h1 >Mitush
-              Connect</h1></div>
-             
-
-
-              <p className='text'>
+            <div className='openingtext'>
+              <h1 className='landingPage-heading'>Mitush Connect</h1>
+          
+           
+              <p className='landing-text' >
              Creating  Impactful business collaborations to reduce textile waste in Kenya
               </p>
-              <button className='Joinbtn' > Join Us <span><img className='handshake' src="/Images/hanshake.png" alt='handshake'/></span></button>
+              
+              <button className='Joinbtn' > Join Us 
+              <img className='handshake' src="/Images/hanshake.png" alt='handshake'/>
+              </button>
             </div>
 
 
-            <div>
-             <img className='landingimage1' src="/Images/recycle.png" alt='recycle'/>
+            <div className='landingimage'>
+             <img className='photo' src="/Images/recycle.png" alt='recycle'/>
             </div>
           
 
 
-        </div>
 
 
     </div>

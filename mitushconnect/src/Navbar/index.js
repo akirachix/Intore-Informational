@@ -12,8 +12,8 @@ const Navbar=() =>{
 
    <div className={`navbar ${isMenuOpen ? 'open' : ''}`} >
 
+               <div className='bothLogo'>
           <img className='logo' src="/Images/mitushlogo.png" alt='logo'/>
-            {/* <h6 className='brand'>MitushConnect</h6> */}
 
             <div className='menu'>
               <button className= {`hamburgerMenu ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
@@ -24,6 +24,8 @@ const Navbar=() =>{
               </button>
 
             </div>
+            </div>
+        
         
         
 
@@ -42,9 +44,9 @@ const Navbar=() =>{
           
        
             </nav>
+            </div>
 
 
-        </div>
     )
 }
 

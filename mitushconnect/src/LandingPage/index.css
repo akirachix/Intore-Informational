@@ -1,651 +1,709 @@
 
 
-.openingtext {
-  display: flex;
-  margin-left: -7.2%;
-  padding: 70px;
-  gap: 88px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  margin-top: -4%;
-}
-
-.text {
-  margin-top: 40px;
-  font-size: 40px;
-  width: 180%;
-  font-family: "Times New Roman", Times, serif;
-}
 
 .Joinbtn {
   background-color: green;
   color: aliceblue;
-
   border-radius: 50px;
   margin-top: 60px;
   font-size: 24px;
-  padding:12px 20px;
+  padding: 12px 20px;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.header h1 {
+.landingPage-heading {
   color: green;
   font-size: 100px;
-}
-.header{
+  margin-left: 28%;
   width: 2%;
+  
 }
-.cto {
-  align-items: center;
-}
+
+
 
 .landingpage {
-  margin-left: 5%;
-  padding: 50px;
+display: flex;
+margin-top: 100px;
 }
-.landingimage1 {
-  width: 1050px;
-  height: auto;
-  margin-left: 240px;
 
-  /* content: none; */
+.photo{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto; 
+  
 }
+
 .handshake {
   width: 40px;
   height: 30px;
   align-items: center;
   margin-top: 4%;
   color: aliceblue;
-  padding-left: 9px;
 }
-
-
-@media screen and (min-width: 280px) and (max-width: 400px) {
-  
-  .openingtext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -21%;
-    padding: 0;
-    font-size: 24px;
-    gap: 3%;
-  }
-
-  .text {
-    font-size: 20px;
-    gap: 0%;
-    width: 88%;
-    margin-top: 2px;
-  }
-
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-    border-radius: 25px;
-    font-size: 14px;
-    margin-top: -5px;
-    padding:12px 20px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-  }
-
-  .header h1 {
-    color: green;
-    font-size: 50px;
-  }
-  .header{
-    width: 2%;
-  }
-
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    
-      width: 120%;
-      height: auto;
-      margin-left: -10%;
-      margin-top: 15%;
-    
-
-  }
-
-  .handshake {
-    width: 15px;
-    height: 15px;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
-  
-  
+.openingtext{
+  margin-left: 100px;
 }
-
-@media screen and (min-width: 410px) and (max-width: 600px) {
-  
-
-  .openingtext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -12%;
-    padding: 0;
-    font-size: 18px;
-    gap: 3%;
-  }
-
-  .text {
-    font-size: 20px;
-    width: 88%;
-  }
-
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-    width: 120px;
-    height: 55px;
-    border-radius: 25px;
-    font-size: 18px;
-    padding: 5px;
-    margin-top: 4%;
-  }
-
-  .header h1 {
-    color: green;
-    font-size: 50px;
-  }
-  .header{
-    width: 2%;
-  }
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    margin-left:-18%; 
-    width: 135%;
-    height: auto;
-    margin-top: 15%;
-    
-  }
-
-  .handshake {
-    width: 25px;
-    height: auto;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
-  
-}
-@media screen and (min-width: 540px) and (max-width: 540px) {
-  
-
-  .openingtext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -16%;
-    padding: 0;
-    font-size: 15px;
-    gap: 3%;
-  }
-
-  .text {
-    font-size: 26px;
-    width: 88%;
-  }
-
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-    border-radius: 25px;
-    font-size: 15px;
-    margin-top: 4%;
-    padding:10px 10px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .header h1 {
-    color: green;
-    font-size: 50px;
-  }
-  .header{
-    width: 2%;
-  }
-
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    margin-left:-11%; 
-    width: 115%;
-    height: auto;
-    margin-top: 10%;
-    
-  }
-
-  .handshake {
-    width: 25px;
-    height: auto;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
-  
-}
-
-@media screen and (min-width: 610px) and (max-width: 720px) {
-  .navbar {
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    align-items: flex-start;
-    z-index: 3;
-    position: relative;
-  }
-
-  .navbar nav {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(234, 241, 237, 0.8);
-    transition: 0.3s;
-    z-index: 1;
-  }
-  .navbar.open nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar nav ul {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin: 0;
-  }
-  .navbar nav ul li {
-    margin-bottom: 15px;
-    cursor: pointer;
-  }
-
-  a {
-    text-decoration: none;
-    color: green;
-    font-weight: bold;
-    break-after: none;
-    font-family: "Times New Roman", Times, serif;
-    margin-left: -10px;
-  }
-
-  .logo {
-    zoom: 70%;
-  }
-
-  .openingtext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -10%;
-    padding: 0;
-    font-size: 18px;
-  }
-
-  .text {
-    font-size: 20px;
-    width: 88%;
-  }
-
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-    width: 100px;
-    height: 40px;
-    border-radius: 25px;
-    font-size: 14px;
-    padding: 5px;
-  }
-
-  .header h1 {
-    color: green;
-    font-size: 50px;
-  }
-  .header{
-    width: 2%;
-  }
-
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    margin-left: -25%;
-    width: 90%;
-    height: auto;
-  }
-
-  .handshake {
-    width: 15px;
-    height: 15px;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
-
-  /* .hamburgerMenu{
-        display: block;
-        background: none;
-        border: none;
-        cursor: pointer;
-        z-index: 3;
-        position: absolute;
-        top: 4%;
-        right: 0%;
-    }
-    .menu{
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .hamburgerMenu .bar{
-        width: 25px;
-        height: 5px;
-        background-color: green;
-        transition: 0.4s;
-        margin: 5px 0;
-    }
-  */
-}
-
-@media screen and (min-width: 720px) and (max-width: 820px) {
- 
-
-  .openingtext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -22%;
-   
-    
-    font-size: 15px;
-  }
-  .landingpage{
-    align-items: center;
-    margin-left: 9%;
-  }
-
-  .text {
+.landing-text{
+  margin-top: 6ch;
     font-size: 30px;
-    gap: 2.5%;
-    width: 88%;
-  }
-  .header h1 {
-    color: green;
-    font-size: 68px;
-  }
-  .header{
-    width: 2%;
-  }
-  .Joinbtn {
-    width: 140px;
-    height: 55px;
-    border-radius: 25px;
-    font-size: 19px;
-    padding: 5px;
-    margin-top: 7%;
-  }
 
-  
-
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-    margin-top: -30px;
-  }
-
-  .handshake {
-    width: 15px;
-    height: 15px;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
 }
-
-@media screen and (min-width: 821px) and (max-width: 1020px) {
-  
-  .openingtext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -23%;
-    align-items: center;
-    padding: 20%;
-    margin-top: -140px;
-  }
-
-  .text {
-    font-size: 55px;
-    width: 115%;
-   
-    
-  }
-
+@media screen and (min-width: 270px) and (max-width: 340px) { 
   .Joinbtn {
     background-color: green;
     color: aliceblue;
-    width: 200px;
-    height: 70px;
-    border-radius: 25px;
-    font-size: 29px;
-    padding: 5px;
-    padding-top: 6px;
-    margin-top: 20px;
-    
-  }
-
-  .header {
-    color: green;
-    font-size: 93px;
-    margin-top: 15px;
-  }
-
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    margin-left: -10%;
-    width: 130%;
-    height: auto;
-    margin-top: -2%;
-  }
-
-  .handshake {
-    width: 35px;
-    height: 35px;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
-}
-
-
-
-@media screen and (min-width: 1024px) and (max-width:1024px)  { 
-  
-  .openingtext {
-    display: flex;
-    /* flex-wrap: wrap; */
-    margin-left: -23.5%;
-    align-items: center;
-    padding: 20%;
-    margin-top: -190px;
-
-  }
-
-  .text {
-    font-size: 2rem;
-    width: 168%;
-   
-    
-  }
-
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-    border-radius: 25px;
-    font-size: 29px;
-    padding: 5px;
-    padding-top: 6px;
-    margin-top: 20px;
-    padding:12px 20px;
-    border: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    
-  }
-
-  .header h1{
-    color: green;
-    font-size: 2.5rem;
-    margin-top: -15%;
-  }
-
-  .cto {
-    align-items: center;
-    z-index: 1;
-  }
-
-  .landingimage1 {
-    margin-left: -6%;
-    width: 500px;
-    height: auto;
-    margin-top: -4%;
-  }
-
-  .handshake {
-    width: 35px;
-    height: 35px;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
- } 
-
- @media screen and (min-width: 1025px) and (max-width:1280px)  {
-  
-  .openingtext {
-    display: flex;
-    margin-left: -20%;
-    padding: 70px;
-    gap: 88px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 24px;
-    margin-top: -10%;
-  }
-  
-  .text {
-    margin-top: 40px;
-    font-size: 30px;
-    width: 170%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-  
     border-radius: 50px;
     margin-top: 60px;
     font-size: 24px;
-    padding:12px 20px;
+    padding: 12px 20px;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .header h1 {
+  .landingPage-heading{
     color: green;
-    font-size: 80px;
-  }
-  .header{
-    width: 2%;
-  }
-  .cto {
-    align-items: center;
+    margin-left:-43px ;
+    font-size: 2.5rem;
   }
   
+ 
   .landingpage {
-    margin-left: 12%;
-    padding: 50px;
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin-left: -39px;
   }
-  .landingimage1 {
-    width: 800px;
-    height: auto;
   
-    /* content: none; */
+  .photo{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 5%;    
   }
+  
   .handshake {
     width: 40px;
     height: 30px;
     align-items: center;
     margin-top: 4%;
     color: aliceblue;
-    padding-left: 9px;
   }
-  .hamburgerMenu {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    right: 0%;
+  .openingtext{
+    margin-left: 40px;
+    font-size: 3rem;
   }
-  .hamburgerMenu .bar {
-    width: 25px;
-    height: 5px;
+  .landing-text{
+    margin-top: 5%;
+      font-size: 1rem;
+  
+  }
+  
+}
+
+@media only screen and (min-width: 341px) and (max-width: 359px) { 
+  .Joinbtn {
     background-color: green;
-    transition: 0.4s ;
-    margin: 5px 0;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .hamburgerMenu-button.active .bar:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 6px);
+  .landingPage-heading{
+    color: green;
+    text-align: left;
+    font-size: 3rem;
   }
   
-  .hamburgerMenu-button.active .bar:nth-child(2) {
-    opacity: 0;
+ 
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
   }
   
-  .hamburgerMenu-button.active .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -6px);
+  .photo{
+    width: 100%;
+    display: none;
+    margin-top: 500%;
+    height: auto;
+    margin-left: 1.5%;    
   }
   
- }
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 40px;
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 1.5rem;
+  
+  }
+  
+}
+
+@media only screen and (min-width: 360px) and (max-width: 370px) { 
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    margin-left: 15%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingPage-heading{
+    color: green;
+    font-size: 3rem;
+    margin-left: -10%;
+  }
+  
+ 
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin-left: -300px;
+  }
+  
+  .photo{
+    width: 50%;
+    margin-top: 0;
+    height: auto;
+    margin-left: -80%; 
+    padding-left: 140px;   
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: -90px;
+    text-align: center;
+    /* font-size: 45%; */
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-left: -10%;
+
+     
+  }
+  
+}
+
+@media only screen and (min-width: 375px) and (max-width: 395px) { 
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingPage-heading{
+    color: green;
+    font-size: 3rem;
+    margin-left: -10%;
+  }
+  
+ 
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  }
+  
+  .photo{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 1.5%;    
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 20px;
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-left: -10%;
+  }
+  
+}
+ 
+
+
+@media only screen and (min-width: 396px) and (max-width: 414px) { 
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingPage-heading{
+    font-size: 3rem;
+    margin-left: 15%;
+    text-align: left;
+  }
+  
+ 
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  }
+  
+  .photo{
+    width: 100%;
+    margin-top: 10%;
+    height: auto;
+    margin-left: 1.5%;    
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 20px;
+    width: 90%;
+  }
+  .landing-text{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: -10%;
+  }
+  
+}
+
+@media only screen and (min-width: 415px) and (max-width: 540px) {
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10%;
+  }
+  
+  .landingPage-heading{
+    color: green;
+    margin-left: -39%;
+    font-size: 3rem;
+  }
+  
+ 
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  }
+  
+  .photo{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: -25%;    
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 40px;
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 1.5rem;
+      margin-left: -28%;
+  
+  }
+  
+}
+
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingPage-heading{
+    color: green;
+    margin-left: 18%;
+    font-size: 3.5rem;
+    margin-left: -29%;
+  }
+  
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  }
+  
+  .photo{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 1.5%;    
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 40px;
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 2rem;
+      margin-left: 1%;
+  
+  }
+}
+
+
+@media only screen and (min-width: 820px) and (max-width: 900px) {
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    margin-left: 39px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingPage-heading{
+    color: green;
+    margin-left: -28%;
+    font-size: 3.5rem;
+    
+  }
+  
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  }
+  
+  .photo{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 1.5%;    
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 40px;
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 2rem;
+      margin-left: 6%;
+  
+  }}
+
+
+@media only screen and (min-width: 901px) and (max-width: 935px) {
+  .openingtext {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 60px;
+    /* font-size: 20px; */
+    margin-top: -4%;
+    margin-left: 0px;
+  }
+
+  .landing-text {
+    margin-top: 30px;
+    font-size: 35px;
+    width: 190%;
+    margin-left: 35%;
+   
+  }
+
+  .Joinbtn {
+    margin-top: -30px;
+    font-size: 28px;
+    padding: 4px 5px;
+    margin-left: 35%;
+  }
+
+  .landingPage-heading{
+    font-size: 55px;
+    margin-left: 27%;
+  }
+
+  .landingimage1 img{
+    width: 10%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .handshake {
+    width: 35px;
+    height: auto;
+    margin-top: 4%;
+  } 
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1123px) {
+  .openingtext {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    /* gap: 60px; */
+    /* font-size: 20px; */
+    margin-top: -4%;
+    margin-left: 10px;
+  }
+  .landingpage {
+    display: flex;
+    gap: 0;
+    margin-top: 10px;
+    overflow-x: hidden;
+    }
+    .photo{
+      width: 180%;
+      margin-top: 15%;
+      height: auto;
+      margin-left: -98px;    
+    }
+
+  .landing-text {
+    margin-top: 1%;
+    font-size: 2rem;
+    width: 100%;
+    margin-left: 7%;
+  }
+
+  .Joinbtn {
+   
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 1rem;
+    width:200px;
+    height: 50px;
+    padding: 0;
+    gap: 10px;
+    border: none;
+    margin-left: 6%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  
+
+  .landingPage-heading {
+    font-size: 56px;
+    width: 34%;
+    margin-left: 5%;
+  }
+
+  .landingimage1 {
+    width: 10%;
+    height: auto;
+    margin-left:-60%;
+  }
+
+  .handshake {
+    width: 10%;
+    height: auto;
+    margin-top: 4%;
+  } 
+}
+
+@media only screen and (min-width: 1124px) and (max-width: 1280px) {
+  .openingtext {
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0;
+    gap: 60px;
+    /* font-size: 20px; */
+    margin-top: -4%;
+    margin-left: 40px;
+  }
+
+  .landing-text {
+    margin-top: 30px;
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .Joinbtn {
+    margin-top: 50px;
+    font-size: 23px;
+    padding: 4px 5px;
+    gap: 3%;
+  }
+
+  .landingPage-heading{
+    font-size: 65px;
+  }
+
+  .landingimage1 {
+    width: 50%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .handshake {
+    width: 35px;
+    height: auto;
+    margin-top: 4%;
+  } 
+
+}
+@media only screen and (min-width: 341px) and (max-width: 360px) {
+  .Joinbtn {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    padding: 12px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingPage-heading{
+    color: green;
+    font-size: 3rem;
+    margin-left: -10%;
+  }
+  
+ 
+  .landingpage {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+  flex-direction: column;
+  }
+  
+  .photo{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 1.5%;    
+  }
+  
+  .handshake {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 4%;
+    color: aliceblue;
+  }
+  .openingtext{
+    margin-left: 55%;
+  }
+  .landing-text{
+    margin-top: 5%;
+      font-size: 1.5rem;
+      text-align: center;
+  
+  }
+  
+}
+
+
+
+
 
 
