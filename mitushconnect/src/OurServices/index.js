@@ -7,8 +7,6 @@ function OurServices(){
         <div className='cardsContainer'>
         <div className="cardsText" id='delivery-card'>
             <h1 className="h1Tag">Pick-up</h1>
-import './index.css'
-function OurServices(){
     return(
 
         <div>
