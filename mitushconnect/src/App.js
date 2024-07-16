@@ -1,4 +1,4 @@
- HEAD
+
 import './App.css';
 import Services from "./OurServices"
 import Team from './Team';
