@@ -1,6 +1,12 @@
+
 import './index.css'
 function OurServices(){
     return(
+        <div className="div-container">
+            <h1 className='services-heading'>Our Services</h1>
+        <div className='cardsContainer'>
+        <div className="cardsText" id='delivery-card'>
+            <h1 className="heading">Pick-up</h1>
 
         <div>
             <h1>Our Services</h1>
@@ -13,6 +19,19 @@ function OurServices(){
             Save time with our errand services where we pick up your bales at your preferred location.
             </p>
         </div>
+        <div className="cardBox" id='delivery-card'>
+            <h1 className="heading">Company</h1>
+            <p>
+            Through the facilitation of a circular economy for textiles and footwear, we promote
+            environmental conservation.We make the most of the resources available, assist the
+            communities impacted by textile waste, and create new employment opportunities by
+            gathering, classifying, and upcycling unwanted textiles.
+            </p>
+        </div>
+        <div className="cardStack" id='delivery-card'>
+            <h1 className="heading">Drop-Off</h1>
+            <p>
+            Recycling and Upcycling Services. The recycling company can process the sorted materials
 
         <div className="cards">
             <h1>Company</h1>
@@ -32,13 +51,10 @@ function OurServices(){
              waste and creates new revenue streams for the traders
             </p>
         </div>
-
     </div>
-    
+    </div>
 
-        </div>
-        
-        
+         
     )
 }
 
