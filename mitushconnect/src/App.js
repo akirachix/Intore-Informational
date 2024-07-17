@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Services from "./OurServices"
+
+import Mission from "./Mission";
 
 const App = () =>{
   return(
     <div>
-        <Services/>
+      <Services/>
+      <Mission/>
     </div>
   )
 }
-// import App from "./Team";
-export default App;
-
+export default App
