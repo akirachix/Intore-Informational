@@ -254,7 +254,7 @@
     gap: 1%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* gap: 3px; */
+    
     overflow: hidden;
     margin-left: 6%;
   }
