@@ -6,9 +6,7 @@ const About = ()=>{
           <h1 className='about-heading'>About Us</h1>
           
           <div className='about-container'>
-            {/* <div className='aboutUs'> */}
-           {/* <h1 className='aboutHeading'>Mitush
-           <br/>Connect</h1> */}
+    
            <div className="about-text">
            <p > 
             MitushConnect believes in creating and enabling sustainable partnerships
@@ -20,7 +18,7 @@ const About = ()=>{
 
            </div>
            
-           {/* </div> */}
+      
 
            <div  className = "image" >
             <img className='image' src="/Images/about2.png" alt='about2'/>
