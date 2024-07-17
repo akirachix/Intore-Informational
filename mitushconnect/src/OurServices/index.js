@@ -7,7 +7,7 @@ function OurServices(){
 
         <div className='cardsContainer'>
        
-        <div className="cardsText" id='delivery-card'>
+        <div className="cardsText" id='delivery'>
             <h1 className="h1Tag">Pick-up</h1>
             <p>
             Enjoy convenient door to door delivery at an affordable rate with our network of experienced riders.
@@ -15,7 +15,7 @@ function OurServices(){
             </p>
         </div>
 
-        <div className="cardBox" id='delivery-card'>
+        <div className="cardBox" id='delivery'>
             <h1 className="h1Tag">Company</h1>
             <p>
             Through the facilitation of a circular economy for textiles and footwear, we promote 
@@ -25,7 +25,7 @@ function OurServices(){
             </p>
         </div>
 
-        <div className="cardStack" id='delivery-card'>
+        <div className="cardStack" id='delivery'>
             <h1 className="h1Tag">Drop-Off</h1>
             <p>
             Recycling and Upcycling Services. The recycling company can process the sorted materials 
