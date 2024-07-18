@@ -11,12 +11,20 @@ const LandingPage=() =>{
 
 
             <div className='openingtext'>
-              <h1 className='landingPage-heading'>Mitush Connect</h1>
-          
-           
-              <p className='landing-text' >
+              <div className='landingPage-heading'>
+              <h1 >Mitush Connect</h1>
+              </div>
+
+
+
+              <div className='landing-text'>
+              <p  >
              Creating  Impactful business collaborations to reduce textile waste in Kenya
               </p>
+                </div>            
+          
+           
+              
               
               <button className='Joinbtn' > Join Us 
               <img className='handshake' src="/Images/hanshake.png" alt='handshake'/>

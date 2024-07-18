@@ -6,6 +6,7 @@
   color: aliceblue;
   border-radius: 50px;
   margin-top: 60px;
+  margin-left: 15%;
   font-size: 24px;
   padding: 12px 20px;
   border: none;
@@ -17,16 +18,28 @@
 .landingPage-heading {
   color: green;
   font-size: 100px;
-  margin-left: 28%;
+  margin-left: 15%;
   width: 2%;
   
 }
 
 
+.landingPage-heading h1{
+  font-size: 50px;
+
+}
+
+.landing-text{
+  margin-top: 20px;
+  margin-left: 15%;
+
+}
+
 
 .landingpage {
 display: flex;
 margin-top: 100px;
+overflow-x: hidden;
 }
 
 .photo{
@@ -43,9 +56,7 @@ margin-top: 100px;
   margin-top: 4%;
   color: aliceblue;
 }
-.openingtext{
-  margin-left: 100px;
-}
+
 .landing-text{
   margin-top: 6ch;
     font-size: 30px;
@@ -67,7 +78,7 @@ margin-top: 100px;
   
   .landingPage-heading{
     color: green;
-    margin-left:-43px ;
+    margin-left:8px ;
     font-size: 2.5rem;
   }
   
@@ -102,6 +113,10 @@ margin-top: 100px;
     margin-top: 5%;
       font-size: 1rem;
   
+  }
+
+  .logo{
+    zoom: 50%;
   }
   
 }
@@ -165,58 +180,48 @@ margin-top: 100px;
     background-color: green;
     color: aliceblue;
     border-radius: 50px;
-    margin-top: 60px;
+    margin-top: 30px;
     font-size: 24px;
-    padding: 12px 20px;
-    margin-left: 15%;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .landingPage-heading{
-    color: green;
+  
+
+  .landingPage-heading h1{
     font-size: 3rem;
-    margin-left: -10%;
+   
   }
   
  
   .landingpage {
   display: flex;
   margin-top: 10px;
-  overflow-x: hidden;
+ 
   flex-direction: column;
-  margin-left: -300px;
+
   }
   
   .photo{
-    width: 50%;
+    width: 100%;
     margin-top: 0;
     height: auto;
-    margin-left: -80%; 
-    padding-left: 140px;   
   }
   
-  .handshake {
+  .handshake { 
+    
     width: 40px;
     height: 30px;
-    align-items: center;
     margin-top: 4%;
     color: aliceblue;
   }
-  .openingtext{
-    margin-left: -90px;
-    text-align: center;
-    /* font-size: 45%; */
-  }
-  .landing-text{
-    margin-top: 5%;
-      font-size: 1.5rem;
-      text-align: center;
-      margin-left: -10%;
-
-     
+  
+  .landing-text p{
+    margin-top: -18%;
+    font-size: 1.2rem;
+    
   }
   
 }
@@ -233,6 +238,7 @@ margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -4%;
   }
   
   .landingPage-heading{
@@ -247,6 +253,18 @@ margin-top: 100px;
   margin-top: 10px;
   overflow-x: hidden;
   flex-direction: column;
+  }
+  .landingPage-heading {
+    color: green;
+    font-size: 100px;
+    margin-left: -4%;
+    width: 2%;
+    
+  }
+  
+  .landingPage-heading h1{
+    font-size: 50px;
+  
   }
   
   .photo{
@@ -270,7 +288,7 @@ margin-top: 100px;
     margin-top: 5%;
       font-size: 1.5rem;
       text-align: center;
-      margin-left: -10%;
+      margin-left: -1%;
   }
   
 }
@@ -293,7 +311,7 @@ margin-top: 100px;
   
   .landingPage-heading{
     font-size: 3rem;
-    margin-left: 15%;
+    margin-left: -1%;
     text-align: left;
   }
   
@@ -327,7 +345,7 @@ margin-top: 100px;
     margin-top: 5%;
     font-size: 1.5rem;
     text-align: center;
-    margin-left: -10%;
+    margin-left: 3%;
   }
   
 }
@@ -344,12 +362,12 @@ margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: -10%;
+    margin-left: 1%;
   }
   
   .landingPage-heading{
     color: green;
-    margin-left: -39%;
+    margin-left: -5%;
     font-size: 3rem;
   }
   
@@ -381,7 +399,7 @@ margin-top: 100px;
   .landing-text{
     margin-top: 5%;
       font-size: 1.5rem;
-      margin-left: -28%;
+      margin-left: -4%;
   
   }
   
@@ -399,13 +417,14 @@ margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 5%;
   }
   
   .landingPage-heading{
     color: green;
     margin-left: 18%;
     font-size: 3.5rem;
-    margin-left: -29%;
+    margin-left: 8%;
   }
   
   .landingpage {
@@ -413,13 +432,14 @@ margin-top: 100px;
   margin-top: 10px;
   overflow-x: hidden;
   flex-direction: column;
+  
   }
   
   .photo{
     width: 100%;
     margin-top: 5%;
     height: auto;
-    margin-left: 1.5%;    
+    margin-left: -89px;    
   }
   
   .handshake {
@@ -430,12 +450,12 @@ margin-top: 100px;
     color: aliceblue;
   }
   .openingtext{
-    margin-left: 40px;
+    margin-left:8px;
   }
   .landing-text{
     margin-top: 5%;
       font-size: 2rem;
-      margin-left: 1%;
+      margin-left: 8%;
   
   }
 }
@@ -458,7 +478,7 @@ margin-top: 100px;
   
   .landingPage-heading{
     color: green;
-    margin-left: -28%;
+    margin-left: 5%;
     font-size: 3.5rem;
     
   }
@@ -501,16 +521,22 @@ margin-top: 100px;
     flex-direction: column;
     padding: 0;
     gap: 60px;
-    /* font-size: 20px; */
     margin-top: -4%;
     margin-left: 0px;
   }
 
   .landing-text {
-    margin-top: 30px;
+    margin-top: -10px;
     font-size: 35px;
     width: 190%;
     margin-left: 35%;
+   
+  }
+
+  .landing-text p{
+    
+    margin-top: -19px;
+    margin-left: -3%;
    
   }
 
@@ -522,8 +548,16 @@ margin-top: 100px;
   }
 
   .landingPage-heading{
-    font-size: 55px;
+   
     margin-left: 27%;
+    margin-top: 13%;
+  }
+  .photo{
+    margin-left: -4%;
+  }
+  .landingPage-heading h1{
+    font-size: 55px;
+    
   }
 
   .landingimage1 img{
@@ -545,9 +579,7 @@ margin-top: 100px;
     display: flex;
     flex-direction: column;
     padding: 0;
-    /* gap: 60px; */
-    /* font-size: 20px; */
-    margin-top: -4%;
+    margin-top: 4%;
     margin-left: 10px;
   }
   .landingpage {
@@ -564,10 +596,12 @@ margin-top: 100px;
     }
 
   .landing-text {
-    margin-top: 1%;
-    font-size: 2rem;
-    width: 100%;
+    margin-top: 4%;
+    width: 90%;
     margin-left: 7%;
+  }
+  .landing-text p{
+    font-size: 2rem;
   }
 
   .Joinbtn {
@@ -581,9 +615,7 @@ margin-top: 100px;
     gap: 10px;
     border: none;
     margin-left: 6%;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
+    
   }
   
 
@@ -607,39 +639,49 @@ margin-top: 100px;
 }
 
 @media only screen and (min-width: 1124px) and (max-width: 1280px) {
-  .openingtext {
-    display: flex;
-    flex-direction: column;
-   
-    padding: 0;
-    gap: 60px;
-    /* font-size: 20px; */
-    margin-top: -4%;
-    margin-left: 40px;
+  .openingtext{
+     
+    margin-top: 4%;
   }
 
-  .landing-text {
-    margin-top: 30px;
-    font-size: 36px;
-    width: 100%;
+  .landingPage-heading{
+    width: 40px;
+  }
+
+  .landingPage-heading h1{
+    font-size: 50px;
+    margin-left: 92px;
+    margin-top: -34px;
+ 
+
+  }
+
+
+  .landing-text p{
+   
+    font-size: 26px;
+    width: 180%;
+    margin-top: -34px;
+    margin-left: 69px;
   }
 
   .Joinbtn {
     margin-top: 50px;
     font-size: 23px;
-    padding: 4px 5px;
+    padding: 10px 10px;
+    width: 200px;
     gap: 3%;
+    margin-left: 89px;
   }
 
   .landingPage-heading{
-    font-size: 65px;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 6%;
   }
 
-  .landingimage1 {
-    width: 50%;
-    height: auto;
-    margin-left: 0px;
-  }
+  
+
 
   .handshake {
     width: 35px;
@@ -647,63 +689,8 @@ margin-top: 100px;
     margin-top: 4%;
   } 
 
-}
-@media only screen and (min-width: 341px) and (max-width: 360px) {
-  .Joinbtn {
-    background-color: green;
-    color: aliceblue;
-    border-radius: 50px;
-    margin-top: 60px;
-    font-size: 24px;
-    padding: 12px 20px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .landingPage-heading{
-    color: green;
-    font-size: 3rem;
-    margin-left: -10%;
-  }
-  
- 
-  .landingpage {
-  display: flex;
-  margin-top: 10px;
-  overflow-x: hidden;
-  flex-direction: column;
-  }
-  
   .photo{
-    width: 100%;
-    margin-top: 5%;
-    height: auto;
-    margin-left: 1.5%;    
+    margin-left: 130px;
   }
-  
-  .handshake {
-    width: 40px;
-    height: 30px;
-    align-items: center;
-    margin-top: 4%;
-    color: aliceblue;
-  }
-  .openingtext{
-    margin-left: 55%;
-  }
-  .landing-text{
-    margin-top: 5%;
-      font-size: 1.5rem;
-      text-align: center;
-  
-  }
-  
+
 }
-
-
-
-
-
-
