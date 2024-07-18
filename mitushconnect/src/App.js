@@ -1,3 +1,4 @@
+
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
 import './App.css';
@@ -9,9 +10,9 @@ function App() {
        <Navbar/>
        <LandingPage/>
        <OurServices/> 
-
     </div>
   )
+
 }
 export default App;
 
