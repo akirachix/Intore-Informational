@@ -33,7 +33,7 @@ a {
   color: green;
   font-weight: bold;
   gap: 3%;
-  /* font-family: "Times New Roman", Times, serif; */
+ 
 }
 
 .navbar nav ul li {
@@ -690,7 +690,7 @@ a {
         color: white;
         font-weight: bold;
         break-after: none;
-        /* font-family: "Times New Roman", Times, serif; */
+        
         margin-left: -10px;
       }
     
@@ -791,7 +791,7 @@ a {
     color: white;
     font-weight: bold;
     break-after: none;
-    /* font-family: "Times New Roman", Times, serif; */
+   
     margin-left: -10px;
   }
 
@@ -811,10 +811,7 @@ a {
     right: 9%;
     margin-top: -14px;
     
-    /* top: 0%; */
-    /* bottom: -8%; */
-    /* right: 1%; */
-    /* content: '\4d'; */
+   
   }
   .menu {
     display: flex;
@@ -878,7 +875,7 @@ a {
       color: green;
       font-weight: bold;
       break-after: none;
-      /* font-family: "Times New Roman", Times, serif; */
+     
     }
     .navbar nav ul li {
       margin-right: 20px;
@@ -926,7 +923,7 @@ a {
        color: green;
        font-weight: bold;
        break-after: none;
-       /* font-family: "Times New Roman", Times, serif; */
+      
      }
      .navbar nav ul li {
        margin-right: 20px;
@@ -969,17 +966,14 @@ a {
       flex-direction: row;
       gap: 2%; 
       margin-left: 12%;
-          /* text-decoration-line: none;
-          margin-top: 2%;
-          font-family: 'Times New Roman', Times, serif;
-          font-size: 24px; */ 
+          
     }
     a {
       text-decoration: none;
       color: green;
       font-weight: bold;
       break-after: none;
-      /* font-family: "Times New Roman", Times, serif; */
+     
     }
     .navbar nav ul li {
       margin-right: 20px;
@@ -1001,7 +995,7 @@ a {
     padding: 10px 20px;
     z-index: 2;
     font-size: 25px;
-    /* gap: 2%; */
+   
   }
   
   .navbar.open nav {
@@ -1024,19 +1018,13 @@ a {
     color: green;
     font-weight: bold;
     break-after: none;
-    /* font-family: "Times New Roman", Times, serif; */
   }
   .navbar nav ul li {
     margin-right: 20px;
     cursor: pointer;
   }
   
-  /* .brand{
-      color: green;
-      font-weight: bold;
-      font-size: larger;
-      margin-top: 2%;
-  } */
+  
   .logo {
     width: 100px;
     margin-left: 44%;
@@ -1056,7 +1044,7 @@ a {
           padding: 10px 20px;
           z-index: 2;
           font-size: 25px;
-          /* gap: 2%; */
+         
         }
         
         .navbar.open nav {
@@ -1079,19 +1067,14 @@ a {
           color: green;
           font-weight: bold;
           break-after: none;
-          /* font-family: "Times New Roman", Times, serif; */
+          
         }
         .navbar nav ul li {
           margin-right: 20px;
           cursor: pointer;
         }
         
-        /* .brand{
-            color: green;
-            font-weight: bold;
-            font-size: larger;
-            margin-top: 2%;
-        } */
+        
         .logo {
           width: 100px;
           margin-left: 5px;

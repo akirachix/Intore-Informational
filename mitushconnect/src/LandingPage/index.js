@@ -1,6 +1,6 @@
 import './index.css';
 import React, {useState} from 'react';
- // import recycle from './recycle.png'
+ 
 
 
 const LandingPage=() =>{
