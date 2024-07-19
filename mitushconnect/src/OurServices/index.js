@@ -1,12 +1,9 @@
 import './index.css'
 function OurServices(){
     return(
-
         <div className="div-container">
             <h1 className='services-heading'>Our Services</h1>
-
         <div className='cardsContainer'>
-       
         <div className="cardsText" id='delivery'>
             <h1 className="h1Tag">Pick-up</h1>
             <p>
@@ -14,7 +11,6 @@ function OurServices(){
             Save time with our errand services where we pick up your bales at your preferred location.
             </p>
         </div>
-
         <div className="cardBox" id='delivery'>
             <h1 className="h1Tag">Company</h1>
             <p>
@@ -24,7 +20,6 @@ function OurServices(){
             gathering, classifying, and upcycling unwanted textiles.
             </p>
         </div>
-
         <div className="cardStack" id='delivery'>
             <h1 className="h1Tag">Drop-Off</h1>
             <p>
@@ -33,12 +28,8 @@ function OurServices(){
              waste and creates new revenue streams for the traders
             </p>
         </div>
-
     </div>
-    
     </div>
-        
-        
     )
 }
 
