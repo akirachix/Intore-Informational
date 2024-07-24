@@ -1,7 +1,7 @@
 import About from "./About Us";
 import './App.css';
 
-function App() {
+const App = () =>{
   return (
     
       <About/>
