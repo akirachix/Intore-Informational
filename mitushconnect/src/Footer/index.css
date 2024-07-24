@@ -21,13 +21,14 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color:green;
+
 }
 
-.box {
+.footer-col {
     
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
     
 }
 
@@ -87,3 +88,32 @@ button {
     cursor: pointer;
     font-size: 18px;
 }
+
+
+ 
+ 
+@media only screen and (min-width: 1124px) and (max-width: 1280px) {
+    .footer {
+        display: flex;
+        color: #fffefe;
+        padding: 2rem 0;
+        height: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color:green;
+        margin-top: 35%;
+    }
+}
+
+ 
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+.footer {
+    display: flex;
+    color: #fffefe;
+    padding: 2rem 0;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:green;
+    margin-top: 56%;
+}}

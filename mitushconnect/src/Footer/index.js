@@ -1,11 +1,11 @@
 
 import './index.css'
-const footer = ()=>{
+const Footer = ()=>{
     return(
  <div>
 
 <footer class="footer">
-        <div class="box">
+        <div class="footer-col">
           
             <ul class="links">
                 <li><a href="#"> Home </a></li>
@@ -16,15 +16,24 @@ const footer = ()=>{
             </ul>
         </div>
        
-        <div class="box">
+        <div class="footer-col">
             <h2> Chat with us</h2>
-            <img  className = "one" src="image/facebook50.png" alt="facebook" />
-          <img className= " two" src="image/twitter11.png" alt="twitter"/>
-            <img className= "three" src="image/linkedin50.png" alt="linke"/>
+            <img  className = "facebook" src="image/facebook50.png" alt="facebook" />
+          <img className= " twitter" src="image/twitter11.png" alt="twitter"/>
+            <img className= "linkedin" src="image/linkedin50.png" alt="linke"/>
           
          </div>
 
-        <div class="box">
+
+
+
+
+
+
+
+
+
+        <div class="footer-col">
             <h2> News Letter </h2>
             <form action="" class="registration">
                 <input type="email" name="email" id="email" placeholder="Enter your email "/>
@@ -40,4 +49,4 @@ const footer = ()=>{
 }
 
 
-export default footer;
+export default Footer;
