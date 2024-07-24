@@ -5,6 +5,8 @@ const Footer = ()=>{
  <div>
 
 <footer class="footer">
+
+    
         <div class="footer-col">
           
             <ul class="links">
