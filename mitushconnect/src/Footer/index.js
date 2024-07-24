@@ -15,6 +15,26 @@ const Footer = ()=>{
                 <li><a href="#"> Contact Us </a></li>
             </ul>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
        
         <div class="footer-col">
             <h2> Chat with us</h2>
