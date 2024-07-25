@@ -602,7 +602,7 @@ a {
     cursor: pointer;
     z-index: 3;
     position: absolute; 
-    /* right: 8%; */
+
     top: 37%;
 
    
@@ -711,10 +711,7 @@ a {
         right: 18%;
         margin-top: -26px;
         
-        /* top: 0%; */
-        /* bottom: -8%; */
-        /* right: 1%; */
-        /* content: '\4d'; */
+       
       }
       .menu {
         display: flex;

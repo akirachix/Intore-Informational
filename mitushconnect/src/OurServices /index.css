@@ -363,7 +363,7 @@ p{
         display: flex;
         flex-direction: column;
         width: 30%;
-        margin-left: 8%;
+        margin-left: 28%;
     }
     h1{
         color: green;
@@ -504,7 +504,7 @@ p{
     }
     .cardsContainer{
         display: flex;
-        /* overflow-x: hidden; */
+        
         flex-direction: row;
         height: 200px;
     }
@@ -541,18 +541,16 @@ p{
         border-radius: 30px;
         height: 500px;
         margin-right: 0;
-        /* width: 300%; */
+      
     }
     .cardsContainer{
         display: flex;
-        /* overflow-x: hidden; */
+        
         flex-direction: row;
         height: 100px;
         margin-right: 10%;
         gap:5%;
-        /* width: 950px; */
-        /* margin-left: 15%;
-        gap: 5%; */
+       
     }
     h1{
         color: green;
@@ -565,7 +563,7 @@ p{
         margin-bottom: 30%;
     }
 }
-@media only screen and (min-width: 767px) and (max-width: 768px) {
+/* @media only screen and (min-width: 767px) and (max-width: 768px) {
     .cardsText{
         display: flex;
         flex-direction: column;
@@ -597,7 +595,7 @@ p{
         flex-direction: column;
         height: 1000px;
         width: 450px;
-        margin-left: 26%;
+        
         gap: 30px;
         
     }
@@ -612,4 +610,4 @@ p{
     .services-heading{
         margin-left: 1%;
     }
-}
+}  */
