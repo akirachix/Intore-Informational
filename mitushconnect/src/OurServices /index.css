@@ -363,7 +363,7 @@ p{
         display: flex;
         flex-direction: column;
         width: 30%;
-        margin-left: 28%;
+        margin-left: 16%;
     }
     h1{
         color: green;
@@ -563,51 +563,3 @@ p{
         margin-bottom: 30%;
     }
 }
-/* @media only screen and (min-width: 767px) and (max-width: 768px) {
-    .cardsText{
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #ccc;
-        border-radius: 30px;
-        width: 80%;
-    }
-    .cardBox{
-        display: flex;
-        flex-direction: column;
-        border: 0.5px solid #ccc;
-        border-radius: 30px;
-        height: 1200px;
-        width: 80%;
-        margin-top: 10%;
-    }
-    .cardStack{
-        display: flex;
-        flex-direction: column;
-        border: 0.5px solid #ccc;
-        border-radius: 30px;
-         height: 1200px;
-        width: 80%;
-        margin-top: 10%;
-    }
-    .cardsContainer{
-        display: flex;
-        
-        flex-direction: column;
-        height: 1000px;
-        width: 450px;
-        
-        gap: 30px;
-        
-    }
-    h1{
-        color: green;
-        font-size: 40px;
-        margin-left: 35%;
-    }
-    p{
-        font-size: 25px;
-    }
-    .services-heading{
-        margin-left: 1%;
-    }
-}  */
