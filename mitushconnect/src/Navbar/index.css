@@ -57,7 +57,7 @@ a {
   position: absolute;
   top: 50%;
   right: -18%;
-  /* padding-right: 5%; */
+ 
   
 }
 
@@ -161,7 +161,7 @@ a {
     position: absolute;
     top: 37%;
     right: 10%;
-    /* margin-left: 170px; */
+  
     margin-top: -6px;
   }
 
@@ -397,7 +397,7 @@ a {
   .hamburgerMenu .bar {
     width: 20px;
     height: 3px;
-   /* position: absolute; */
+   
     background-color: green;
     margin-left: -123px;
   }
@@ -494,7 +494,7 @@ a {
     z-index: 3;
     position: absolute;
     top: 37%;
-    /* right: -8%; */
+  
     margin-left: 23px;
     margin-top: -6px;
   }
@@ -507,7 +507,6 @@ a {
   .hamburgerMenu .bar {
     width: 20px;
     height: 3px;
-   /* position: absolute; */
     background-color: green;
     margin-left: -123px;
   }
@@ -602,7 +601,7 @@ a {
     cursor: pointer;
     z-index: 3;
     position: absolute; 
-    /* right: 8%; */
+
     top: 37%;
 
    
@@ -618,7 +617,7 @@ a {
   .hamburgerMenu .bar {
     width: 20px;
     height: 3px;
-   /* position: absolute; */
+   
     background-color: green;
     margin-left: -123px;
   }
@@ -640,6 +639,8 @@ a {
     
   }
 }
+
+
  
 @media screen and (min-width: 540px) and (max-width: 600px) {
     .navbar {
@@ -709,10 +710,7 @@ a {
         right: 18%;
         margin-top: -26px;
         
-        /* top: 0%; */
-        /* bottom: -8%; */
-        /* right: 1%; */
-        /* content: '\4d'; */
+       
       }
       .menu {
         display: flex;
@@ -841,7 +839,7 @@ a {
   }  
 }
 
-@media screen and (min-width: 720px) and (max-width: 765px) {
+@media screen and (min-width: 720px) and (max-width: 764px) {
     .navbar {
    display: flex;
     margin-left: -2%;
